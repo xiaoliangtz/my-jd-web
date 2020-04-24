@@ -1,0 +1,144 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+}
+body {
+    color: #666;
+    font: 12px/1.5 Microsoft YaHei,Heiti SC,tahoma,arial,Hiragino Sans GB,"\5B8B\4F53",sans-serif;
+}
+a {
+    color: #666;
+}
+a:hover {
+    color: #c81623;
+}
+img {
+    border: 0;
+    vertical-align: middle;
+}
+body .iconfont {
+    font-size: 12px;
+}
+#shortcut {
+    border-bottom: 1px solid #ddd;
+    background-color: #e3e4e5;
+}
+#shortcut .w {
+    height: 30px;
+    line-height: 30px;
+    color: #999;
+}
+.w {
+    margin: auto;
+    width: 1190px;
+}
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+.cf {
+    content: '';
+    display: block;
+    clear: both;
+}
+#header{
+    background: #fff;
+    border-bottom: 1px solid #ddd;
+}
+button, input {
+    font-family: Microsoft YaHei,Heiti SC,tahoma,arial,Hiragino Sans GB,"\5B8B\4F53",sans-serif;
+}
+i {
+    font-style: normal;
+}
+.fs .fs_inner {
+    position: relative;
+}
+.fs {
+    margin-bottom: 30px;
+}
+.fs_inner {
+    z-index: 1;
+    height: 480px;
+    background-color: #f4f4f4;
+}
+.fs_col1 {
+    width: 190px;
+}
+.fs_col1, .fs_col2 {
+    float: left;
+    height: 480px;
+    margin-right: 10px;
+}
+.fs_col2 {
+    width: 790px;
+    /* border: 1px solid black; */
+}
+.focus {
+    position: relative;
+    height: 470px;
+    margin-top: 10px;
+    overflow: hidden;
+}
+.slider-wrapper {
+    width: 590px;
+    height: 470px;
+    margin-right: 10px;
+    float: left;
+    overflow: hidden;
+}
+.slider-wrapper img{
+    width: 590px;
+    height: 470px;
+}
+.sliderRecommendWrapper {
+    width: 190px;
+    float: left;
+    overflow: hidden;
+}
+.sliderRecommend {
+    position: relative;
+    height: 470px;
+}
+.slider_list {
+    float: left;
+    position: relative;
+    transition: opacity 300ms ease-in-out 0s;
+    width: 190px;
+    height: 470px;
+    left: 0;
+    opacity: 1;
+    z-index: 1;
+}
+.focus_item_recommend {
+    width: 190px;
+    vertical-align: top;
+    display: inline-block;
+    height: 100%;
+}
+.focus_item_recommend a {
+    display: block;
+    height: 150px;
+    width: 190px;
+    margin-bottom: 10px;
+    position: relative;
+}
+.focus_item_recommend img {
+    height: 150px;
+    width: 190px;
+}
+.fs_col3 {
+    position: relative;
+    width: 190px;
+    height: 480px;
+    float: right;
+    z-index: 1;
+}
+#app {
+    position: relative;
+    z-index: 10;
+}

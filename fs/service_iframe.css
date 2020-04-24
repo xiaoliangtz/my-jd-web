@@ -1,0 +1,10 @@
+.iframe_recharge {
+    color: #666;
+    width: 160px;
+    font-family: 'Microsoft YaHei';
+}
+.iframe_recharge .content_iframe {
+    position: relative;
+    height: 146px;
+    font-family: 'Microsoft Yahei';
+}

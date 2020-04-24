@@ -1,0 +1,119 @@
+
+.cate {
+    position: relative;
+    z-index: 3;
+}
+.cate_menu {
+    overflow: hidden;
+    padding: 10px 0;
+    height: 450px;
+    background-color: #fefefe;
+    color: #636363;
+    margin-top: 10px;
+}
+.cate_menu_item {
+    padding-left: 18px;
+    overflow: hidden;
+    height: 25px;
+    line-height: 25px;
+    /* font-size: 0; */
+}
+.cate_menu_item a {
+    font-size: 14px;
+    color: #333;
+}
+.cate_menu_item span {
+    padding: 0 2px;
+    font-size: 12px;
+}
+.cate_menu_item:hover {
+    background-color: #d9d9d9;
+}
+.cate_menu_item a:hover {
+    color: #c81623;
+    cursor: pointer;
+}
+.cate_part {
+    /* display: none; */
+    padding: 20px 0 10px;
+}
+.cate_part_col1 {
+    float: left;
+    width: 800px;
+}
+.cate_channel {
+    padding-left: 20px;
+    overflow: hidden;
+    height: 24px;
+}
+.cate_detail {
+    padding: 10px 0 0 20px;
+    overflow: hidden;
+}
+.cate_pop {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 191px;
+    width: 998px;
+    min-height: 468px;
+    border: 1px solid #f7f7f7;
+    background-color: #fff;
+    transition: top .25s ease;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, .3);
+}
+.cate_pop .cate_channel a {
+    float: left;
+    margin-right: 10px;
+    padding: 0 10px ;
+    height: 24px;
+    background-color: #333;
+    line-height: 24px;
+    color: #fff;
+}
+.cate_pop .cate_channel a i {
+    margin-left: 5px;
+    font-size: 12px;
+}
+.cate_pop .cate_channel a:hover {
+    background-color: #c81623;
+    cursor: pointer;
+}
+.cate_detail_item {
+    position: relative;
+    padding-left: 80px;
+}
+.cate_detail dl dt {
+    position: absolute;
+    left: 0;
+    top: 6px;
+    width: 70px;
+    text-align: right;
+    font-weight: 700;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.cate_detail dl dt a:hover {
+    color: #c81623;
+    cursor: pointer;
+}
+.cate_detail dl dt a i {
+    font-size: 12px;
+    margin-left: 5px;
+}
+.cate_detail_con {
+    overflow: hidden;
+    padding: 5px 0;
+}
+.cate_detail_con_lk {
+    float: left;
+    margin: 3px 0;
+    padding: 0 7px;
+    height: 16px;
+    line-height: 16px;
+    white-space: nowrap;
+}
+.cate_detail_con_lk:hover {
+    color: #c81623;
+    cursor: pointer;
+}

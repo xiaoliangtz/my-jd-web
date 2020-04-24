@@ -1,0 +1,199 @@
+.red {
+    color: #f11350!important;
+}
+#shortcut .w a {
+    color: #999;
+}
+.shortcut_btn {
+    position: relative;
+}
+#shortcut .w .location:hover a {
+    color: #f11350;
+}
+#shortcut .w .location .dt-hover {
+    width: 60px;
+    text-align: center;
+    border: 1px solid #e3e4e5;
+    height: 30px;
+    line-height: 30px;
+}
+#shortcut .w .location .dt-hover .iconfont {
+    color: #e1251b;
+    font-size: 18px;
+    font-weight: 700;
+}
+.dropdown {
+    display: none;
+    position: absolute;
+    top: 30px;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    width: 300px;
+    z-index: 20;
+    background: #fff;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+#shortcut .location .shortcut_btn:hover .dropdown {
+    display: block;
+}
+#shortcut .location .shortcut_btn:hover .dt-hover {
+    background-color: #fff;
+    border-top-color: #ccc;
+    border-left-color: #ccc;
+    border-right-color: #ccc;
+}
+#shortcut .location .dropdown dl dd {
+    float: left;
+    width: 50px;
+    margin: 0px 5px 0px;
+    text-align: center;
+}
+#shortcut .w .location .dropdown .tj {
+    background-color: #f11350;
+    color: #fff;
+}
+#shortcut .location .dropdown dl dd:hover {
+    color: #f11350;
+    cursor: pointer;
+}
+#shortcut .right-title li {
+    float: left;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+}
+#shortcut .right-title li a {
+    vertical-align: top;
+}
+#shortcut .right-title li a:hover {
+    color: #f11350;
+}
+#shortcut .right-title .spacer {
+    width: 1px;
+    height: 10px;
+    background-color: #ccc;
+    margin: 11px 5px 0;
+    overflow: hidden;
+}
+#shortcut .right-title .login {
+    margin-right: 8px;
+}
+#shortcut .dt {
+    padding-left: 7px;
+    padding-right: 7px;
+}
+.dropdown-layer {
+    display: none;
+    position: absolute;
+    top: 30px;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    z-index: 20;
+    background: #fff;
+    padding-bottom: 10px;
+}
+#shortcut .my-jd .dropdown-layer {
+    width: 240px;
+}
+#shortcut .dt-hover:hover .dropdown-layer{
+    display: block;
+}
+#shortcut .my-jd-list1, .my-jd-list2 {
+    width: 280px;
+    padding: 10px 0 10px 15px;
+    overflow: hidden;
+    text-align: left;
+}
+#shortcut .fore1, .fore2 {
+    width: 126px;
+    float: left;
+}
+#shortcut .my-jd-list2 {
+    border-top: 1px solid #f1f1f1;
+    overflow: hidden;
+}
+#shortcut .my-jd dl dd:hover {
+    color: #f11350;
+    cursor: pointer;
+}
+#shortcut .dt-hover .cw-icon {
+    height: 30px;
+    border: 1px solid #e3e4e5;
+    border-bottom-color: #fff;
+}
+#shortcut .dt-hover:hover .cw-icon {
+    background-color: #fff;
+    border-top-color: #ccc;
+    border-left-color: #ccc;
+    border-right-color: #ccc;
+}
+#shortcut .shortcut_btn_company .dropdown-layer{
+    width: 140px;
+    left: 0;
+    padding: 10px 0 10px 15px;
+}
+#shortcut .w .shortcut_btn_company dl {
+    width: 140px;
+}
+#shortcut .shortcut_btn_company dl dd {
+    width: 56px;
+    float: left;
+    white-space: nowrap;
+    text-align: left;
+    padding-left: 0px;
+}
+#shortcut .service .dropdown-layer {
+    right: 0;
+}
+#shortcut .service dl {
+    width: 170px;
+}
+#shortcut .service dl dt {
+    width: 155px;
+}
+#shortcut dl dt {
+    /* width: 155px; */
+    padding-left: 15px;
+    color: #666;
+    text-align: left;
+    font-weight: 700;
+}
+#shortcut .service dl dd {
+   width: 70px; 
+   padding-left: 15px;  
+}
+#shortcut  dl dd {
+    text-align: left;
+    float: left;
+    line-height: 24px;
+    white-space: nowrap;
+}
+#shortcut .navigation .dropdown-layer {
+    width: 1188px;
+    right: -84px;
+}
+#shortcut .navigation .dropdown-layer dt {
+    padding-left: 0px;
+}
+#shortcut .navigation .dropdown-layer .theme {
+    width: 340px;
+}
+#shortcut .navigation .dropdown-layer dl dd {
+    width: 85px;
+    padding-left: 0px;
+}
+#shortcut .navigation .dropdown-layer dl {
+    width: 255px;
+    float: left;
+    padding-left: 20px;
+
+}
+#shortcut .navigation .dropdown-layer .dl {
+    border-left: 1px solid #eee;
+}
+#shortcut dd:hover {
+    color: #e1251b;
+    cursor: pointer;
+}
+
